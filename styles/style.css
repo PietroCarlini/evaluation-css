@@ -65,7 +65,7 @@ body{
 
 .card{
     position: relative;
-    object-fit: cover;   
+    object-fit: cover;
 }
 
 .card img{
