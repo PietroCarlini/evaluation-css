@@ -173,3 +173,33 @@ footer{
     margin-top: 20px;
     letter-spacing:5px;
 }
+
+
+/* 📱📻💻 *** RESPONISVE MEDIA ***💻📻📱 */
+
+@media screen and (min-width:770px){
+    .container__cards{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    place-content: center;
+    }
+    /* .small__card{
+        grid-column: 1/4;
+        grid-row: 1/2;
+    } */
+    .big__card{
+        grid-column: 1/3 ;
+        grid-row: 2/3
+    }
+
+
+
+    .footer{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    
+}
+
+}
